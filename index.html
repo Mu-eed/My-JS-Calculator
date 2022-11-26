@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mu'eed's Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <section id="result"></section>
+        <div id="global">
+        <div class="first-row">
+            <button onclick="reset()">AC</button>
+          <button onclick="reset()">DEL</button>
+          <button onclick="buildSum('+')">+</button>
+        </div>
+        <div class="second-row">
+          <button onclick="buildSum('7')">7</button>
+          <button onclick="buildSum('8')">8</button>
+          <button onclick="buildSum('9')">9</button>
+          <button onclick="buildSum('/')">/</button>
+        </div>
+        <div class="third-row">
+          <button onclick="buildSum('4')">4</button>
+          <button onclick="buildSum('5')">5</button>
+          <button onclick="buildSum('6')">6</button>
+          <button onclick="buildSum('*')">x</button>
+        </div>
+        <div class="fourth-row">
+          <button onclick="buildSum('1')">1</button>
+          <button onclick="buildSum('2')">2</button>
+          <button onclick="buildSum('3')">3</button>
+          <button onclick="buildSum('-')">-</button>
+        </div>
+        <div class="conflict">
+          <div class="left">
+            <button onclick="buildSum('0')">0</button>
+            <button onclick="buildSum('.')">.</button>
+            <button id="equal-to" class="span-two" onclick="calculate()">=</button>
+          </div>
+          </div>
+        </div>
+        </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
