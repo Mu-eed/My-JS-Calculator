@@ -14,30 +14,30 @@
         <div class="first-row">
             <button class="span-two" onclick="reset()">AC</button>
           <button onclick="del()">&larr;</button>
-          <button onclick="buildSum('+')">+</button>
+          <button onclick="buildSumOperators('+')">+</button>
         </div>
         <div class="second-row">
           <button onclick="buildSum('7')">7</button>
           <button onclick="buildSum('8')">8</button>
           <button onclick="buildSum('9')">9</button>
-          <button onclick="buildSum('/')">÷</button>
+          <button onclick="buildSumOperators('/')">÷</button>
         </div>
         <div class="third-row">
           <button onclick="buildSum('4')">4</button>
           <button onclick="buildSum('5')">5</button>
           <button onclick="buildSum('6')">6</button>
-          <button onclick="buildSum('*')">×</button>
+          <button onclick="buildSumOperators('*')">×</button>
         </div>
         <div class="fourth-row">
           <button onclick="buildSum('1')">1</button>
           <button onclick="buildSum('2')">2</button>
           <button onclick="buildSum('3')">3</button>
-          <button onclick="buildSum('-')">-</button>
+          <button onclick="buildSumOperators('-')">-</button>
         </div>
         <div class="conflict">
           <div class="left">
             <button onclick="buildSum('0')">0</button>
-            <button onclick="buildSum('.')">.</button>
+            <button onclick="buildSumDecimal()">.</button>
             <button id="equal-to" class="span-two" onclick="calculate()">=</button>
           </div>
           </div>
