@@ -41,8 +41,9 @@ button {
     color: black;
     background-color: white;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 10px;
     cursor: pointer;
+    width: 25px;
 }
 
 #equal-to {
@@ -58,4 +59,5 @@ button:hover {
 
 .span-two {
     grid-column: span 2;
+    width: 54px;
 }
